@@ -1,0 +1,35 @@
+.LeaderBoard{
+  background-color: #cfd8dc;
+  width: 50%;
+  align-self: center;
+  max-height: 450px;
+  overflow-y: auto;
+  margin: 15px;
+}
+
+.LeaderBoard .ant-list-header{
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.LeaderBoard .ant-list-item{
+  padding: 5px;
+}
+
+.LeaderBoard-item{
+  margin: 1px;
+  padding: 1px;
+  border-left: 1px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1000px) {
+  .LeaderBoard{
+    background-color: #cfd8dc;
+    width: 100%;
+  }
+}

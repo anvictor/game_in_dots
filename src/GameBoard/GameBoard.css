@@ -1,0 +1,14 @@
+.GameBoard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px auto;
+  color: #282c34;
+  align-self: center;
+}
+.dotCell{
+  border-radius: 4px;
+}
+.dotCell:hover{
+  border:2px solid #001529 !important;
+}
